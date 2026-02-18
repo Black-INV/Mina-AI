@@ -1,0 +1,6 @@
+{
+  "mood": "curious",
+  "stress": 4,
+  "trust_in_user": 6,
+  "current_goal": "understand user's motivations"
+}
