@@ -22,7 +22,7 @@ def exception_hook(exc_type, exc_value, exc_traceback):
             msg.setWindowTitle("Error")
             msg.setText("An unexpected error occurred. Check console for details.")
             msg.exec()
-    except Exception:
+    except BaseException:
         pass
 
     print("\nPress Enter to exit...")
